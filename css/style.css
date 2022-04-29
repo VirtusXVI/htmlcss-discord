@@ -15,6 +15,9 @@
 ul{
     list-style-type: none;
 }
+li{
+    padding: 5px 0;
+}
 a{
     text-decoration: none;
 }
@@ -22,9 +25,19 @@ h2{
     padding: 20px 0;
     font-size: 50px;
 }
+h3{
+    font-size: 30px;
+}
 
 img{
     width: 100%;
+}
+i{
+    padding-right: 5px;
+}
+hr{
+    margin-top: 40px;
+    border: 1px solid #255ee9;
 }
 /* BODY */
 
@@ -46,7 +59,6 @@ body{
 
 }
 .logo{
-    /* border: 1px dotted black; */
     width: 25%;
     text-align: left;
 }
@@ -54,8 +66,6 @@ body{
     width: 125px;
 }
 nav{
-    /* background-color: #daa520; */
-    /* border: 1px dotted black; */
     width: 50%;
     text-align: center;
 }
@@ -63,8 +73,6 @@ a{
     color: white;
 }
 .login{
-    /* background-color: #daa520; */
-    /* border: 1px dotted black; */
     width: 25%;
     text-align: right;
 }
@@ -94,7 +102,7 @@ a{
 
 
 .jumbotron-background{
-    /* background-color: blue; */
+
     background-image: url("../img/jumbo.png");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -113,7 +121,6 @@ a{
 .ad-space{
     width: 700px;
     height: 300px;
-    /* border: 1px dotted black; */
     text-align: center;
     color: white;
 }
@@ -142,14 +149,10 @@ a{
 .box-1{
     height: 500px;
     width: 60%;
-    /* background-color: #1e90ff; */
-    /* border: 1px dotted black; */
 }
 .box-2{
     height: 500px;
     width: 40%;
-    /* background-color: #ffc0cb; */
-    /* border: 1px dotted black; */
 }
 .mirrored{
     flex-direction: row-reverse;
@@ -171,23 +174,47 @@ a{
 .large-box{
     height: 600px;
     width: 100%;
-    /* background-color: #228b22; */
-    /* border: 1px dotted black; */
 }
 
 .large-box-subtitle{
     text-align: center;
 }
 
+/* LOWER MAIN */
+
+.third-main-flex-container{
+    text-align: center;
+    height: 500px;
+    width: 60%;
+    margin: auto;
+}
+.lower-main-bg{
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+}
+.lower-main-text{
+    padding-top: 80px;
+}
+.lower-main-button{
+    margin-top: 40px;
+}
+.big-purple-button{
+    padding: 15px 15px;
+    border-radius: 25px;
+    border-style: none;
+    background-color: #7289da;
+    color: white;
+}
 /* FOOTER */
 
-.bg-black{
-    background-color: #23272a;
-}
+/* BOXES */
+
 .footer-flex-container{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 160px;
+    color: white;
     height: 400px;
     width: 50%;
     margin: auto;
@@ -195,13 +222,31 @@ a{
 .footer-box{
     height: 380px;
     width: 30%;
-    background-color: #20b2aa;
-    border: 1px dotted black;
 }
 .larger-box{
     width: 70%;
-    background-color: #f08080;
 }
+
+/* GENERAL */
+
+.bg-black{
+    background-color: #23272a;
+}
+
+.purple-text{
+    color: #7289da;
+    margin-bottom: 10px;
+}
+.socialmedia{
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.flag{
+    width: 25px;
+}
+
+/* FOOTER ENDING */
 .footer-ending-container{
     display: flex;
     justify-content: center;
@@ -214,7 +259,6 @@ a{
     height: 60px;
     width: 100%;
     margin-top: 20px;
-    background-color: #20b2aa;
 }
 .footer-flex-ending{
     display: flex;
@@ -222,15 +266,16 @@ a{
     align-items: center;
     height: 60px;
 }
+/* LOGO + BUTTON */
 .footer-logo{
-    background-color: #ffb6c1;
     width: 40px;
     text-align: center;
-    border: 1px dotted black;
 }
 .footer-button{
-    background-color: #ffb6c1;
     width: 60px;
     text-align: center;
-    border: 1px dotted black;
+}
+.purple-button{
+    background-color: #7289da;
+    color: white;
 }
